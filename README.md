@@ -4,7 +4,6 @@
 
 <h2 align="center">Contenido</h2>
 
-<p align="center">Toca una semana para abrirla. Cada una trae definiciones, ejemplos resueltos, ejercicios con respuesta desplegable y preguntas clave para entender el tema.</p>
 
 <a href="semana-1.md"><img src="assets/banner-semana-1.svg" alt="Semana 1: Análisis de lógica combinacional" width="100%"></a>
 

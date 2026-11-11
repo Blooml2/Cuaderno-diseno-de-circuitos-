@@ -8,7 +8,7 @@ Un circuito **combinacional** es aquel cuya salida depende solo de las entradas 
 
 Un computador representa toda la información con **dos estados eléctricos**: un voltaje alto (1) y un voltaje bajo (0). Dos estados son fáciles de distinguir aunque haya ruido, por eso se prefieren a diez niveles de voltaje.
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Un **bit** es un dígito binario (0 o 1). Un grupo de 4 bits es un **nibble** y uno de 8 bits es un **byte**.
 
 ## 2. Sistemas numéricos
@@ -46,7 +46,7 @@ Suma: `0+0=0`, `0+1=1`, `1+0=1`, `1+1=0` y llevo 1.
 >   1 1 0 1   = 13
 > ```
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** El **complemento a dos** permite representar negativos. Para negar un número se invierten todos sus bits (complemento a uno) y se suma 1. Con *n* bits el rango es de −2ⁿ⁻¹ a 2ⁿ⁻¹ − 1.
 
 > **Ejemplo resuelto:** −5 en 8 bits. 5 = `00000101` → invertir: `11111010` → sumar 1: `11111011`.
@@ -54,7 +54,7 @@ Suma: `0+0=0`, `0+1=1`, `1+0=1`, `1+1=0` y llevo 1.
 
 ## 4. Códigos binarios
 
-> [!NOTE]
+> [!NOTA]
 > - **BCD:** cada dígito decimal se codifica con 4 bits. 59 = `0101 1001`. Los patrones 1010 a 1111 no se usan.
 > - **Gray:** entre un número y el siguiente cambia un solo bit. Se usa en encoders y en el orden de los mapas de Karnaugh. Se obtiene así: `gₙ = bₙ` y `gᵢ = bᵢ₊₁ ⊕ bᵢ`.
 > - **ASCII:** 7 bits por carácter. 'A' = 65 = `1000001`; '0' = 48 = `0110000`.
@@ -80,7 +80,7 @@ Suma: `0+0=0`, `0+1=1`, `1+0=1`, `1+1=0` y llevo 1.
 
 ## 5. Compuertas lógicas
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Una **compuerta** es un circuito que realiza una operación lógica elemental sobre una o más entradas binarias y entrega una salida.
 
 | Compuerta | Función | Se lee |
@@ -139,7 +139,7 @@ Un 0 y un 1 lógicos son rangos de voltaje, no un valor exacto. Esto da margen f
 | V<sub>OL</sub> máx. | Voltaje de salida en nivel bajo | 0,5 V |
 | V<sub>OH</sub> mín. | Voltaje de salida en nivel alto | 2,7 V |
 
-> [!NOTE]
+> [!NOTA]
 > Entre 0,8 V y 2,0 V una entrada queda en zona indefinida y la compuerta puede responder de forma impredecible. Confirma siempre estos valores en la hoja de datos de tu fabricante.
 
 **Lógica positiva y negativa:** en lógica positiva el voltaje alto es el 1 (lo usual). En lógica negativa es al revés. Una compuerta AND en lógica positiva se comporta como OR en lógica negativa. Todo el curso usa lógica positiva.
